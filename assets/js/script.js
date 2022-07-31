@@ -6,6 +6,9 @@ const lizard = document.getElementById("lizard");
 const spock = document.getElementById("spock");
 const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
 const result = document.getElementById("result");
+let userScore = 0;
+let computerScore = 0;
+let tieScore = 0;
 
 // Computer chooses a weapon randomly
 function generateComputerChoice() {

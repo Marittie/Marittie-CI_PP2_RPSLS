@@ -5,10 +5,14 @@
 }
 body {
     background-color: ivory;
-    font-family: "Indie Flower", sans-serif;
+    font-family: "Fredoka One", sans-serif;
     font-size: 30px;
     color: darkgreen;
     text-align: center;
+}
+
+h1 {
+    color:firebrick;
 }
 
 #header {

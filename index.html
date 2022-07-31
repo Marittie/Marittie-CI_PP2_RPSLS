@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rock, Paper, Scissors, Lizard, Spock Game">
+    <meta name="keywords" content="rock paper scissors lizard spock, game, sheldon game, big bang theory game">
+     <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Rock, Paper, Scissors, Lizard, Spock Game</title>
+</head>
+<body>
+    <div id="header">
+        <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
+    </div>
+     <!--User choice-->
+    <div>
+        <h2>Your Choice</h2>
+        <button id="rock"><img class="round" src="assets/images/rock.jpeg" alt="Animated Rock"></button>
+        <button id="paper"><img class="round" src="assets/images/paper.jpg" alt="Animated Paper"></button>
+        <button id="scissors"><img class="round" src="assets/images/scissors.jpeg" alt="Animated Scissors"></button>
+        <button id="lizard"><img class="round" src="assets/images/lizard.png" alt="Animated Lisard"></button>
+        <button id="spock"><img class="round" src="assets/images/spock.jpeg" alt="Animated Spock"></button>
+    </div>
+    <div class="battle">
+        <h2>You</h2>
+        <span id="userWeapon"></span>
+        <h2>Computer</h2>
+        <span id="computerWeapon"></span>
+    </div>
+    <!--Result from user vs Computer-->
+    <div>
+        <h2>Result</h2>
+        <p> <span id="result"></span></p>
+    </div>
+    <!--Score count-->
+    <div>
+        <h2>Score</h2>
+        <div class="score">
+        <h3>You</h3>
+        <span id="userScore">0</span>
+        <h3>Computer</h3>
+        <span id="computerScore">0</span>
+        <h3>Tie</h3>
+        <span id="tieScore">0</span>
+    </div>
+    </div>
+    <!--Javascript-->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

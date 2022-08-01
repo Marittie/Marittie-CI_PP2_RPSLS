@@ -83,6 +83,10 @@ ul {
 
 @media screen and (max-width: 415px) {
 
+    h1 {
+        font-size: 40px;
+    }
+
     .choice {
         font-size: 18px;
         margin: 15px;
@@ -116,5 +120,9 @@ ul {
         margin: 15px;
         font-size: 18px;
         display: flex;
+    }
+
+    .rls {
+        font-size: 18px;
     }
 }

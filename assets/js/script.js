@@ -9,7 +9,7 @@ const result = document.getElementById("result");
 let userScore = 0;
 let computerScore = 0;
 let tieScore = 0;
-const winningScore = 10;
+let winningScore = 10;
 
 // Computer chooses a weapon randomly
 function generateComputerChoice() {
@@ -35,15 +35,6 @@ const updateScore = () => {
     const computerScoreDisplay = document.getElementById("computerScore");
     computerScoreDisplay.innerHTML = computerScore;
   }
-
-  //Function to determine the Winner when scoring 10 points
-  function checkWinner() {
-    if (userScore == winningScore) {
-      result.innerHTML = 'You Win';
-} else if (computerScore == winningScore) {
-  result.innerHTML = 'Computer Win'
-}
-}
   
   // Show the result
   function displayResult(userChoice, computerChoice) {
@@ -154,6 +145,25 @@ const updateScore = () => {
       checkWinner();
     } 
   }
+
+    //Function to determine the Winner when scoring 10 points
+    function checkWinner() {
+      if (userScore == winningScore) {
+        result.innerHTML = '<span style=color:#b22222>Congratulations! YOU Won the Game! Click on a "weapon" to start a new Game!</span>';
+        endGame();
+      } else if (computerScore == winningScore) {
+        result.innerHTML = '<span style=color:#b22222>YOU LOSE the Game! Click on a "weapon" to start a new Game!</span>';
+        endGame();
+       }
+} 
+  
+function endGame() {
+  // reset all score to 0
+  userScore = 0;
+  computerScore = 0;
+  tieScore = 0;
+}
+
 
 // EventListeners for all buttons
 rock.addEventListener("click", function () {

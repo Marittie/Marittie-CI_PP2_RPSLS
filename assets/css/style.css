@@ -52,16 +52,17 @@ button {
 }
 
 .rst {
-    margin: 25px;
+    margin: 25px 0px 50px 0px;
 }
 
 .score {
     display: flex;
     justify-content: space-evenly;
+    margin: 30px;
 }
 
 .rls {
-    margin: 30px;
+    margin-top: 40px;
 }
 
 ul {

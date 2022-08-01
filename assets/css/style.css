@@ -81,14 +81,40 @@ ul {
     }
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 415px) {
+
+    .choice {
+        font-size: 18px;
+        margin: 15px;
+    }
+
+    button{
+        margin: 15px;
+    }
     .round {
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
         border-radius: 20%;
         position: relative;
         align-items : center;
         background-position: center;
         background-size: cover;
+    }
+
+    .battle {
+        margin: 10px;
+        font-size: 18px;
+        display: flex;
+    }
+
+    .rst {
+        margin: 15px;
+        font-size: 18px;
+    }
+
+    .score {
+        margin: 15px;
+        font-size: 18px;
+        display: flex;
     }
 }

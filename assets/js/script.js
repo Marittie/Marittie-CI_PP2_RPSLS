@@ -44,12 +44,12 @@ const updateScore = () => {
       updateScore();
       checkWinner();
     } else if (userChoice === 'scissors' && computerChoice === 'paper') {
-      result.innerHTML = "scissors cuts paper - You Win!";
+      result.innerHTML = "scissors cut paper - You Win!";
       userScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'paper' && computerChoice === 'scissors') {
-      result.innerHTML = "scissors cuts paper - You Lose!";
+      result.innerHTML = "scissors cut paper - You Lose!";
       computerScore++;
       updateScore();
       checkWinner();

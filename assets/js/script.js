@@ -22,124 +22,124 @@ function battle(userChoice) {
     let computerChoice = generateComputerChoice();
     displayResult(userChoice, computerChoice);
     // Display user and Computer Choices
-    document.querySelector('#userWeapon').innerHTML = userChoice;
-    document.querySelector('#computerWeapon').innerHTML = computerChoice;
+    document.querySelector('#userWeapon').innerHTML = `<span style="color: #FF4500;">${userChoice}</span>`;
+    document.querySelector('#computerWeapon').innerHTML = `<span style="color: 	#1E90FF;">${computerChoice}</span>`;
 }
 
 // Store and update the score 
 const updateScore = () => {
     const tieScoreDisplay = document.getElementById("tieScore");
-    tieScoreDisplay.innerHTML = tieScore;
+    tieScoreDisplay.innerHTML = `<span style="color: #333366;">${tieScore}</span>`;
     const userScoreDisplay = document.getElementById("userScore");
-    userScoreDisplay.innerHTML = userScore;
+    userScoreDisplay.innerHTML = `<span style="color: #FF4500;">${userScore}</span>`;
     const computerScoreDisplay = document.getElementById("computerScore");
-    computerScoreDisplay.innerHTML = computerScore;
-  }
+    computerScoreDisplay.innerHTML = `<span style="color: #1E90FF;">${computerScore}</span>`;
+  };
   
   // Show the result
   function displayResult(userChoice, computerChoice) {
     if (userChoice === computerChoice) {
-      result.innerHTML = "same choice - It's a tie!";
+      result.innerHTML = "<span style=color:#333366>same choice - It's a tie!</span>";
       tieScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'scissors' && computerChoice === 'paper') {
-      result.innerHTML = "scissors cut paper - You Win!";
+      result.innerHTML = "<span style=color:#FF4500>scissors cut paper - You Win!</span>";
       userScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'paper' && computerChoice === 'scissors') {
-      result.innerHTML = "scissors cut paper - You Lose!";
+      result.innerHTML = "<span style=color:#1E90FF>scissors cut paper - You Lose!</span>";
       computerScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'paper' && computerChoice === 'rock') {
-      result.innerHTML = "paper covers rock - You Win!";
+      result.innerHTML = "<span style=color:#FF4500>paper covers rock - You Win!</span>";
       userScore++;
       updateScore();
       checkWinner();
     } else if (userChoice == 'rock' && computerChoice === 'paper') {
-      result.innerHTML = "paper covers rock - You Lose!";
+      result.innerHTML = "<span style=color:#1E90FF>paper covers rock - You Lose!</span>";
       computerScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'rock' && computerChoice === 'lizard') {
-      result.innerHTML = "rock crushes lizard - You Win!";
+      result.innerHTML = "<span style=color:#FF4500>rock crushes lizard - You Win!</span>";
       userScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'lizard' && computerChoice === 'rock') {
-      result.innerHTML = "rock crushes lizard - You Lose!";
+      result.innerHTML = "<span style=color:#1E90FF>rock crushes lizard - You Lose!</span>";
       computerScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'lizard' && computerChoice === 'spock') {
-      result.innerHTML = "lizard poisons Spock - You Win!";
+      result.innerHTML = "<span style=color:#FF4500>lizard poisons Spock - You Win!</span>";
       userScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'spock' && computerChoice === 'lizard') {
-      result.innerHTML = "lizard poisons Spock - You Lose!";
+      result.innerHTML = "<span style=color:#1E90FF>lizard poisons Spock - You Lose!</span>";
       computerScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'spock' && computerChoice === 'scissors') {
-      result.innerHTML = "spock smashes scissors - You Win!";
+      result.innerHTML = "<span style=color:#FF4500>spock smashes scissors - You Win!</span>";
       userScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'scissors' && computerChoice === 'spock') {
-      result.innerHTML = "spock smashes scissors - You Lose!";
+      result.innerHTML = "<span style=color:#1E90FF>spock smashes scissors - You Lose!</span>";
       computerScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'scissors' && computerChoice === 'lizard') {
-      result.innerHTML = "scissors decapitate lizard - You Win!";
+      result.innerHTML = "<span style=color:#FF4500>scissors decapitate lizard - You Win!</span>";
       userScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'lizard' && computerChoice === 'scissors') {
-      result.innerHTML = "scissors decapitate lizard - You Lose!";
+      result.innerHTML = "<span style=color:#1E90FF>scissors decapitate lizard - You Lose!</span>";
       computerScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'lizard' && computerChoice === 'paper') {
-      result.innerHTML = "lizard eats paper - You Win!";
+      result.innerHTML = "<span style=color:#FF4500>lizard eats paper - You Win!</span>";
       userScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'paper' && computerChoice === 'lizard') {
-      result.innerHTML = "lizard eats paper - You Lose!";
+      result.innerHTML = "<span style=color:#1E90FF>lizard eats paper - You Lose!</span>";
       computerScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'paper' && computerChoice === 'spock') {
-      result.innerHTML = "paper disproves Spock - You Win!";
+      result.innerHTML = "<span style=color:#FF4500>paper disproves Spock - You Win!</span>";
       userScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'spock' && computerChoice === 'paper') {
-      result.innerHTML = "paper disproves Spock - You Lose!";
+      result.innerHTML = "<span style=color:#1E90FF>paper disproves Spock - You Lose!</span>";
       computerScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'spock' && computerChoice === 'rock') {
-      result.innerHTML = "Spock vaporizes rock - You Win!";
+      result.innerHTML = "<span style=color:#FF4500>Spock vaporizes rock - You Win!</span>";
       userScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'rock' && computerChoice === 'spock') {
-      result.innerHTML = "Spock vaporizes rock - You Lose!";
+      result.innerHTML = "<span style=color:#1E90FF>Spock vaporizes rock - You Lose!</span>";
       computerScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'rock' && computerChoice === 'scissors') {
-      result.innerHTML = "rock crushes scissors - You Win!";
+      result.innerHTML = "<span style=color:#FF4500>rock crushes scissors - You Win!</span>";
       userScore++;
       updateScore();
       checkWinner();
     } else if (userChoice === 'scissors' && computerChoice === 'rock') {
-      result.innerHTML = "rock crushes scissors - You Lose!";
+      result.innerHTML = "<span style=color:#1E90FF>rock crushes scissors - You Lose!</span>";
       computerScore++;
       updateScore();
       checkWinner();
@@ -149,10 +149,10 @@ const updateScore = () => {
     //Function to determine the Winner when scoring 10 points
     function checkWinner() {
       if (userScore == winningScore) {
-        result.innerHTML = '<span style=color:#b22222>Congratulations! YOU Won the Game! Click on a "weapon" to start a new Game!</span>';
+        result.innerHTML = '<span style=color:#b22222>Congratulations! YOU WON the Game! Click on a "weapon" to start a new Game!</span>';
         endGame();
       } else if (computerScore == winningScore) {
-        result.innerHTML = '<span style=color:#b22222>YOU LOSE the Game! Click on a "weapon" to start a new Game!</span>';
+        result.innerHTML = '<span style=color:#000000>YOU LOSE the Game! Click on a "weapon" to start a new Game!</span>';
         endGame();
        }
 } 

@@ -19,18 +19,27 @@ h1 {
     margin: 10px 0 20px 0;
 }
 
+nav {
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .go-rules {
-    border-radius: 20%;
+    border-radius: 25%;
     cursor: pointer;
-    padding: 15px;
+    padding: 10px;
     background-color: #006400;
     color: #fffff0;
-    margin: 15px;
+    margin: 10px;
+    font-size: 20px;
 }
 
 button {
     border-radius: 20%;
-    box-shadow: 0px 5px 5px lightseagreen;
+    box-shadow: 0px 5px 5px #20b2aa;
     cursor: pointer;
     margin: 25px;
 }    
@@ -87,6 +96,10 @@ ul {
         font-size: 40px;
     }
 
+    .go-rules {
+        font-size: 15px;
+    }
+
     .choice {
         font-size: 18px;
         margin: 15px;
@@ -124,5 +137,9 @@ ul {
 
     .rls {
         font-size: 18px;
+    }
+
+    .copyright {
+        font-size: 15px;
     }
 }

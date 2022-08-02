@@ -1,108 +1,151 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock, Paper, Scissors, Lizard, Spock (PP2)
 
-Welcome Marittie,
+![Responsive mockup of the website](../Marittie-Marittie-CI_PP2_GS.../docs/mockup/responsive-mockup.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View the deployed website.](https://marittie.github.io/Marittie-CI_PP2_RPSLS/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Table of Content
 
-## Gitpod Reminders
+1. [Project Goals](#project-goals)
+2. [User Experience](#user-experience)
+    1. [User stories](#user-stories)
+    2. [Design](#design)
+    3. [Wireframes](#wireframes)
+3. [Features](#features)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks,-libraries-and-other-tools)
+5. [Testing](#testing)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Browser compatibility](#browser-compatability)
+    7. [Testing user stories](#testing-user-stories)
+6. [Bugs](#Bugs-found-and-resolved-during-development)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+    1. [Code](#code)
+    2. [Media](#media)
+    3. [Acknowledgements](#acknowledgements)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Project Goals
 
-`python3 -m http.server`
+### Website owner goals
 
-A blue button should appear to click: _Make Public_,
+- I want users to be able to play an enjoyable game. 
+- I want users to return to the website to continue playing the game. 
 
-Another blue button should appear to click: _Open Browser_.
+### User goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Learn the rules of the game. 
+- Play a game that is enjoyable and challenging. 
+- Play a game that encourages the user to return to the game after the first play through. 
+- Play a game that has the objective to Win.
 
-A blue button should appear to click: _Make Public_,
+## User experience
 
-Another blue button should appear to click: _Open Browser_.
+The user experience is structured around three main goals: (a) to allow users to learn the game, (b) interaction with the game (c) encourage users to return and play through again. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### User stories
 
-To log into the Heroku toolbelt CLI:
+I have divided my user stories into two categories: first-time users and regular visitors, with the understanding that one of the key goals of the website is to encourage replayability of the game.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### First-time users
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+1. As a first-time user, I want to understand the rules of the game. 
+2. As a first-time user, I want to be able to play the game across all personal devices. 
+3. As a first-time user, I want to keep track of my score to monitor my performance in the game. 
 
-------
+#### Regular visitor
+ 
+4. As a regular visitor, I want to see my score. 
+5. As a regular visitor, I want to see the difference in score between me and the computer.
 
-## Release History
+#### Site owner
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+6. As a site owner, I want users to be able to play and navigate the page easily so that users are more likely to have an enjoyable experience and return to the game.
+7. As a site owner, I want users to enjoy this version of the game from the serie Big Bang Theory.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Design 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+My overall approach to the design came from a desire to create a game that was fun, engaging and simple to understand.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+#### Colour Scheme
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+I chose to use a shade of green and a shade of red as the primary scheme to bring to the user's mind connotations of nature and challenge. I chose shades of orange,blue and gray for the user and computer choice,the scores and the result to be able to draw particular attention when those value changes.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+#### Typography
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+My body font is Fredoka One from Google Fonts. I chose this font because is aesthetically pleasing. Fredoka One is a big, round, bold font that is perfect for adding a little fun to games.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+#### Imagery
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+I chose not to use photography on the website and adopted a cartoonish style instead. I did this to keep a consistent style across the website and promote a tone that was fun and engaging, particularly for children.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+I found all the images on Google.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Features
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Current Features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The game page contains 8 main sections: 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+1. A header displaying the name of the game.
+2. Scope of the game.
+3. A button to direct the user to the rules of the game.
+4. The buttons to play the game.
+5. User and Computer choices showing when pressing a button.
+6. The result calculated between the user and computer choices.
+7. The User and the Computer score.
+8. The Rules of the game.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Feature 1: Header
 
-------
+This header is used to communicate to users the name of the game and what type of game it is.
 
-## FAQ about the uptime script
+![Header](../Marittie-Marittie-CI_PP2_GS.../docs/features/header.png)
 
-**Why have you added this script?**
+#### Feature 2: Scope
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+This feature is used to communicate to users the end goal of the game.
 
-**How will this affect me?**
+![Scope](../Marittie-Marittie-CI_PP2_GS.../docs/features/scope.png)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+#### Feature 3: Button to navigate to the rules of the game
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+This button is used for user to navigate to the rules if the do not know the different combinations of the game.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![Button](../Marittie-Marittie-CI_PP2_GS.../docs/features/button-rules.png)
 
-**So….?**
+#### Feature 4: Buttons to play against the compputer
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+This buttons are the "weapons" the users will choose to start their game agains the computer.
 
-**Can I opt out?**
+![Button](../Marittie-Marittie-CI_PP2_GS.../docs/features/buttons-weapons.png)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+#### Feature 5: User and Computer choices
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+This feature is used to display to users which "weapon" they and the computer have chosen.
 
-**Anything more?**
+![Choices](../Marittie-Marittie-CI_PP2_GS.../docs/features/choices.png)
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+#### Feature 6: Result
 
----
+This feature is used to dispaly to users the result of the "battle" between them and the computer, declering if they have won or lost that round.
 
-Happy coding!
+![Result](../Marittie-Marittie-CI_PP2_GS.../docs/features/result.png)
+
+#### Feature 7: Score
+
+This feature is used to display the User and Computer score until the end of the game, it will also display the tie score when the user and the computer will choose the same "weapon".
+
+![Score](../Marittie-Marittie-CI_PP2_GS.../docs/features/score.png)
+
+#### Feature 8: Rules
+
+This feature is used to show, especially to new users, the rules of the game.
+
+![Rules](../Marittie-Marittie-CI_PP2_GS.../docs/features/rules.png)
+

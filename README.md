@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors, Lizard, Spock (PP2)
 
-![Responsive mockup of the website](./Marittie-Marittie-CI_PP2_GS.../docs/mockup/responsive-mockup.png)
+![Responsive mockup of the website](//Marittie-Marittie-CI_PP2_GS.../docs/mockup/responsive-mockup.png)
 
 [View the deployed website.](https://marittie.github.io/Marittie-CI_PP2_RPSLS/)
 
@@ -111,7 +111,7 @@ The game page contains 8 main sections:
 
 This header is used to communicate to users the name of the game and what type of game it is.
 
-![Header](./Marittie-Marittie-CI_PP2_GS.../docs/features/header.png)
+![Header](.//Marittie-Marittie-CI_PP2_GS.../docs/features/header.png)
 
 **User stories covered by this feature:**
 
@@ -121,7 +121,7 @@ This header is used to communicate to users the name of the game and what type o
 
 This feature is used to communicate to users the end goal of the game.
 
-![Scope](./Marittie-Marittie-CI_PP2_GS.../docs/features/scope.png)
+![Scope](.//Marittie-Marittie-CI_PP2_GS.../docs/features/scope.png)
 
 **User stories covered by this feature:**
 
@@ -132,7 +132,7 @@ This feature is used to communicate to users the end goal of the game.
 
 This button is used for user to navigate to the rules if the do not know the different combinations of the game.
 
-![Button](./Marittie-Marittie-CI_PP2_GS.../docs/features/button-rules.png)
+![Button](.//Marittie-Marittie-CI_PP2_GS.../docs/features/button-rules.png)
 
 **User stories covered by this feature:**
 
@@ -143,7 +143,7 @@ This button is used for user to navigate to the rules if the do not know the dif
 
 This buttons are the "weapons" the users will choose to start their game agains the computer.
 
-![Button](./Marittie-Marittie-CI_PP2_GS.../docs/features/buttons-weapons.png)
+![Button](.//Marittie-Marittie-CI_PP2_GS.../docs/features/buttons-weapons.png)
 
 **User stories covered by this feature:**
 
@@ -154,7 +154,7 @@ This buttons are the "weapons" the users will choose to start their game agains 
 
 This feature is used to display to users which "weapon" they and the computer have chosen.
 
-![Choices](./Marittie-Marittie-CI_PP2_GS.../docs/features/choices.png)
+![Choices](.//Marittie-Marittie-CI_PP2_GS.../docs/features/choices.png)
 
 **User stories covered by this feature:**
 
@@ -164,7 +164,7 @@ This feature is used to display to users which "weapon" they and the computer ha
 
 This feature is used to dispaly to users the result of the "battle" between them and the computer, declering if they have won or lost that round.
 
-![Result](./Marittie-Marittie-CI_PP2_GS.../docs/features/result.png)
+![Result](.//Marittie-Marittie-CI_PP2_GS.../docs/features/result.png)
 
 **User stories covered by this feature:**
 
@@ -175,7 +175,7 @@ This feature is used to dispaly to users the result of the "battle" between them
 
 This feature is used to display the User and Computer score until the end of the game, it will also display the tie score when the user and the computer will choose the same "weapon".
 
-![Score](./Marittie-Marittie-CI_PP2_GS.../docs/features/score.png)
+![Score](.//Marittie-Marittie-CI_PP2_GS.../docs/features/score.png)
 
 **User stories covered by this feature:**
 
@@ -186,7 +186,7 @@ This feature is used to display the User and Computer score until the end of the
 
 This feature is used to show, especially to new users, the rules of the game.
 
-![Rules](./Marittie-Marittie-CI_PP2_GS.../docs/features/rules.png)
+![Rules](.//Marittie-Marittie-CI_PP2_GS.../docs/features/rules.png)
 
 **User stories covered by this feature:**
 
@@ -199,17 +199,13 @@ Wireframes:
 
 Balsamiq Wireframes
 
-- Laptop 
+- [Laptop](./docs/wireframes/wireframe-laptop.png)
 
-![Laptop](./docs/wireframes/wireframe-laptop.png)
 
-- Tablet
 
-![Tablet](./docs/wireframes/wireframe-tablet.png)
+- [Tablet](./docs/wireframes/wireframe-tablet.png)
 
-- Mobile phone
-
-![Mobile](./docs/wireframes/wireframe-mobilephone.png)
+- [Mobile phone](./docs/wireframes/wireframe-mobilephone.png)
 
 ## Technologies used
 
@@ -236,19 +232,20 @@ Balsamiq Wireframes
 
 ### HTML Validation
 
-The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML of the website. All pages passed with 0 errors. 
-
-![HTML](./docs/validation/validation-html.png)
+The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML of the website. All pages passed with [0 errors](./docs/validation/validation-html.png). 
 
 ### CSS Validation
 
-The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) was used to validate the CSS of the website. Style.css passed with 0 errors.
-
-![CSS](./docs/validation/validation-css.png)
+The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) was used to validate the CSS of the website. Style.css passed with [0 errors](./docs/validation/validation-css.png).
 
 ## JavaScript Validation
 
-![JavaScript](./docs/validation/validation-js.png)
+The [JSHint](https://jshint.com/) was used to validate the JavaScript of the website. All scripts passed with [0 errors and 0 warnings](docs/validation/validation-js.png).
 
-The [JSHint](https://jshint.com/) was used to validate the JavaScript of the website. All scripts passed with 0 errors and 0 warnings.
+### Accessibility 
 
+The [WAVE WebAIM web accessibility evaluation tool]  was used to ensure the website met high accessibility standards. 
+
+The website passes with [0 errors](./docs/accessibility/wawe-acc.png).
+
+### Performance

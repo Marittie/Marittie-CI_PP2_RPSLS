@@ -54,19 +54,25 @@ I have divided my user stories into two categories: first-time users and regular
 
 #### First-time users
 
-1. As a first-time user, I want to understand the rules of the game. 
-2. As a first-time user, I want to be able to play the game across all personal devices. 
-3. As a first-time user, I want to keep track of my score to monitor my performance in the game. 
+1. As a first-time user, I want to see the name of the game.
+2. As a first-time user, I want to understand the scope of the game.
+3. As a first-time user, I want to understand the rules of the game. 
+4. As a first-time user, I want to be able to play the game across all personal devices. 
+5. As a first-time user, I want to be able to see the choices made by me and the computer.
+6. As a first-time user, I want to keep track of my score to monitor my performance in the game. 
+7. As a first-time user, I want to see the result og the "battle" between me and the computer.
 
 #### Regular visitor
  
-4. As a regular visitor, I want to see my score. 
-5. As a regular visitor, I want to see the difference in score between me and the computer.
+8. As a regular visitor, I want to see the result og the "battle" between me and the computer. 
+9. As a regular visitor, I want to see the difference in score between me and the computer.
 
 #### Site owner
 
-6. As a site owner, I want users to be able to play and navigate the page easily so that users are more likely to have an enjoyable experience and return to the game.
-7. As a site owner, I want users to enjoy this version of the game from the serie Big Bang Theory.
+10. As a site owner, I want users to be able to understand the scope of the game.
+11. As a site owner, I want users to be able to understand the rules of the game.
+12. As a site owner, I want users to be able to play and navigate the page easily so that users are more likely to have an enjoyable experience and return to the game.
+13. As a site owner, I want users to enjoy this version of the game from the serie Big Bang Theory.
 
 ### Design 
 
@@ -107,11 +113,20 @@ This header is used to communicate to users the name of the game and what type o
 
 ![Header](../Marittie-Marittie-CI_PP2_GS.../docs/features/header.png)
 
+**User stories covered by this feature:**
+
+1. As a first-time user, I want to see the name of the game.
+
 #### Feature 2: Scope
 
 This feature is used to communicate to users the end goal of the game.
 
 ![Scope](../Marittie-Marittie-CI_PP2_GS.../docs/features/scope.png)
+
+**User stories covered by this feature:**
+
+2. As a first-time user, I want to understand the scope of the game.
+10. As a site owner, I want users to be able to understand the scope of the game.
 
 #### Feature 3: Button to navigate to the rules of the game
 
@@ -119,11 +134,21 @@ This button is used for user to navigate to the rules if the do not know the dif
 
 ![Button](../Marittie-Marittie-CI_PP2_GS.../docs/features/button-rules.png)
 
+**User stories covered by this feature:**
+
+3. As a first-time user, I want to understand the rules of the game.
+11. As a site owner, I want users to be able to understand the rules of the game.
+
 #### Feature 4: Buttons to play against the compputer
 
 This buttons are the "weapons" the users will choose to start their game agains the computer.
 
 ![Button](../Marittie-Marittie-CI_PP2_GS.../docs/features/buttons-weapons.png)
+
+**User stories covered by this feature:**
+
+4. As a first-time user, I want to be able to play the game across all personal devices. 
+12. As a site owner, I want users to be able to play and navigate the page easily so that users are more likely to have an enjoyable experience and return to the game.
 
 #### Feature 5: User and Computer choices
 
@@ -131,11 +156,20 @@ This feature is used to display to users which "weapon" they and the computer ha
 
 ![Choices](../Marittie-Marittie-CI_PP2_GS.../docs/features/choices.png)
 
+**User stories covered by this feature:**
+
+5. As a first-time user, I want to be able to see the choices made by me and the computer.
+
 #### Feature 6: Result
 
 This feature is used to dispaly to users the result of the "battle" between them and the computer, declering if they have won or lost that round.
 
 ![Result](../Marittie-Marittie-CI_PP2_GS.../docs/features/result.png)
+
+**User stories covered by this feature:**
+
+7. As a first-time user, I want to see the result og the "battle" between me and the computer.
+8. As a regular visitor, I want to see the result og the "battle" between me and the computer.
 
 #### Feature 7: Score
 
@@ -143,9 +177,19 @@ This feature is used to display the User and Computer score until the end of the
 
 ![Score](../Marittie-Marittie-CI_PP2_GS.../docs/features/score.png)
 
+**User stories covered by this feature:**
+
+6. As a first-time user, I want to keep track of my score to monitor my performance in the game. 
+9. As a regular visitor, I want to see the difference in score between me and the computer.
+
 #### Feature 8: Rules
 
 This feature is used to show, especially to new users, the rules of the game.
 
 ![Rules](../Marittie-Marittie-CI_PP2_GS.../docs/features/rules.png)
+
+**User stories covered by this feature:**
+
+3. As a first-time user, I want to understand the rules of the game.
+11. As a site owner, I want users to be able to understand the rules of the game.
 

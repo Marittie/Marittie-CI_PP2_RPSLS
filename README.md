@@ -231,3 +231,24 @@ Balsamiq Wireframes
 - Am I Responsive was used to create the multi-device mock-up you see at the start of this README.md file.
 5. [Faivcon Generator](https://www.favicon-generator.org/)
 - Favicon Generator was used to create a favicon for the website.
+
+## Testing
+
+### HTML Validation
+
+The [W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML of the website. All pages passed with 0 errors. 
+
+![HTML](//docs/validation/validation-html.png)
+
+### CSS Validation
+
+The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) was used to validate the CSS of the website. Style.css passed with 0 errors.
+
+![CSS](//docs/validation/validation-css.png)
+
+## JavaScript Validation
+
+![JavaScript](//docs/validation/validation-js.png)
+
+The [JSHint](https://jshint.com/) was used to validate the JavaScript of the website. All scripts passed with 0 errors and 0 warnings.
+

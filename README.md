@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors, Lizard, Spock (PP2)
 
-![Responsive mockup of the website](//Marittie-Marittie-CI_PP2_GS.../docs/mockup/responsive-mockup.png)
+![Responsive mockup of the website](.//docs/mockup/responsive-mockup.png)
 
 [View the deployed website.](https://marittie.github.io/Marittie-CI_PP2_RPSLS/)
 
@@ -249,3 +249,26 @@ The [WAVE WebAIM web accessibility evaluation tool]  was used to ensure the webs
 The website passes with [0 errors](./docs/accessibility/wawe-acc.png).
 
 ### Performance
+
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. The page passed with 94% score on performance, 100% on accessibility, 92% Best Practice and 100% on SEO.
+
+[Lighthouse](./docs/lighthouse/lighthouse.png)
+
+### Performing tests on various devices 
+
+#### Devices tested: 
+
+- MacBook Air 
+- Iphone 7
+- Iphone 13 Pro
+- Samsung S 22
+
+### Browser compatibility
+
+- **Microsoft Edge**: Website and user stories work as expected. 
+- **Google Chrome**: Website and user stories work as expected. 
+- **Safari**: Website and user stories work as expected. 
+- **Firefox**: Website and user stories work as expected. 
+
+ 
+

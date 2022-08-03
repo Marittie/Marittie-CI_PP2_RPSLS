@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors, Lizard, Spock (PP2)
 
-![Responsive mockup of the website](../Marittie-Marittie-CI_PP2_GS.../docs/mockup/responsive-mockup.png)
+![Responsive mockup of the website](//Marittie-Marittie-CI_PP2_GS.../docs/mockup/responsive-mockup.png)
 
 [View the deployed website.](https://marittie.github.io/Marittie-CI_PP2_RPSLS/)
 
@@ -111,7 +111,7 @@ The game page contains 8 main sections:
 
 This header is used to communicate to users the name of the game and what type of game it is.
 
-![Header](../Marittie-Marittie-CI_PP2_GS.../docs/features/header.png)
+![Header](//Marittie-Marittie-CI_PP2_GS.../docs/features/header.png)
 
 **User stories covered by this feature:**
 
@@ -121,7 +121,7 @@ This header is used to communicate to users the name of the game and what type o
 
 This feature is used to communicate to users the end goal of the game.
 
-![Scope](../Marittie-Marittie-CI_PP2_GS.../docs/features/scope.png)
+![Scope](//Marittie-Marittie-CI_PP2_GS.../docs/features/scope.png)
 
 **User stories covered by this feature:**
 
@@ -132,7 +132,7 @@ This feature is used to communicate to users the end goal of the game.
 
 This button is used for user to navigate to the rules if the do not know the different combinations of the game.
 
-![Button](../Marittie-Marittie-CI_PP2_GS.../docs/features/button-rules.png)
+![Button](//Marittie-Marittie-CI_PP2_GS.../docs/features/button-rules.png)
 
 **User stories covered by this feature:**
 
@@ -143,7 +143,7 @@ This button is used for user to navigate to the rules if the do not know the dif
 
 This buttons are the "weapons" the users will choose to start their game agains the computer.
 
-![Button](../Marittie-Marittie-CI_PP2_GS.../docs/features/buttons-weapons.png)
+![Button](//Marittie-Marittie-CI_PP2_GS.../docs/features/buttons-weapons.png)
 
 **User stories covered by this feature:**
 
@@ -154,7 +154,7 @@ This buttons are the "weapons" the users will choose to start their game agains 
 
 This feature is used to display to users which "weapon" they and the computer have chosen.
 
-![Choices](../Marittie-Marittie-CI_PP2_GS.../docs/features/choices.png)
+![Choices](//Marittie-Marittie-CI_PP2_GS.../docs/features/choices.png)
 
 **User stories covered by this feature:**
 
@@ -164,7 +164,7 @@ This feature is used to display to users which "weapon" they and the computer ha
 
 This feature is used to dispaly to users the result of the "battle" between them and the computer, declering if they have won or lost that round.
 
-![Result](../Marittie-Marittie-CI_PP2_GS.../docs/features/result.png)
+![Result](//Marittie-Marittie-CI_PP2_GS.../docs/features/result.png)
 
 **User stories covered by this feature:**
 
@@ -175,7 +175,7 @@ This feature is used to dispaly to users the result of the "battle" between them
 
 This feature is used to display the User and Computer score until the end of the game, it will also display the tie score when the user and the computer will choose the same "weapon".
 
-![Score](../Marittie-Marittie-CI_PP2_GS.../docs/features/score.png)
+![Score](//Marittie-Marittie-CI_PP2_GS.../docs/features/score.png)
 
 **User stories covered by this feature:**
 
@@ -186,10 +186,48 @@ This feature is used to display the User and Computer score until the end of the
 
 This feature is used to show, especially to new users, the rules of the game.
 
-![Rules](../Marittie-Marittie-CI_PP2_GS.../docs/features/rules.png)
+![Rules](//Marittie-Marittie-CI_PP2_GS.../docs/features/rules.png)
 
 **User stories covered by this feature:**
 
 3. As a first-time user, I want to understand the rules of the game.
 11. As a site owner, I want users to be able to understand the rules of the game.
 
+### Wireframes
+
+Wireframes:
+
+Balsamiq Wireframes
+
+- Laptop 
+
+![Laptop](//docs/wireframes/wireframe-laptop.png)
+
+- Tablet
+
+![Tablet](//docs/wireframes/wireframe-tablet.png)
+
+- Mobile phone
+
+![Mobile](//docs/wireframes/wireframe-mobilephone.png)
+
+## Technologies used
+
+### Languages
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Frameswork, libraries and other tools
+
+1. [GitHub](https://github.com/)
+- GitHub was used as a remote repository to store project code.
+2. [Font Awesome](https://fontawesome.com/)
+- Icons from Font Awesome were used throughout the site.
+3. [Google Fonts](https://fonts.google.com/)
+- Fendoka One from Google Fonts were used as the main heading font throughout the site.
+4. [Am I Responsive](http://ami.responsivedesign.is/)
+- Am I Responsive was used to create the multi-device mock-up you see at the start of this README.md file.
+5. [Faivcon Generator](https://www.favicon-generator.org/)
+- Favicon Generator was used to create a favicon for the website.

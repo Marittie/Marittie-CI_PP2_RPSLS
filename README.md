@@ -175,7 +175,7 @@ This feature is used to dispaly to users the result of the "battle" between them
 
 This feature is used to display the User and Computer score until the end of the game, it will also display the tie score when the user and the computer will choose the same "weapon".
 
-![Score](.//Marittie-Marittie-CI_PP2_GS.../docs/features/score.png)
+![Score](.//docs/features/score.png)
 
 **User stories covered by this feature:**
 
@@ -186,7 +186,7 @@ This feature is used to display the User and Computer score until the end of the
 
 This feature is used to show, especially to new users, the rules of the game.
 
-![Rules](.//Marittie-Marittie-CI_PP2_GS.../docs/features/rules.png)
+![Rules](.//docs/features/rules.png)
 
 **User stories covered by this feature:**
 
@@ -200,8 +200,6 @@ Wireframes:
 Balsamiq Wireframes
 
 - [Laptop](./docs/wireframes/wireframe-laptop.png)
-
-
 
 - [Tablet](./docs/wireframes/wireframe-tablet.png)
 
@@ -270,5 +268,69 @@ The website passes with [0 errors](./docs/accessibility/wawe-acc.png).
 - **Safari**: Website and user stories work as expected. 
 - **Firefox**: Website and user stories work as expected. 
 
- 
+ ### Testing user stories
 
+
+
+
+
+
+
+
+
+
+
+ ## Bugs:
+
+ No Bugs were found in the game.
+
+ ## Deployment
+
+### GitHub Pages
+
+This website has been deployed using GitHub pages. To do the same...
+
+1. Log into your GitHub account and find the [repository](https://github.com/Marittie/Marittie-CI_PP2_RPSLS). 
+2. Click on 'Settings' in the repository. 
+3. Click 'Pages' in the left-hand menu once you're in Settings. 
+4. Go to 'Branch'.
+5. Click on the button that says 'none', then select 'main'.
+6. Wait for page to refresh automatically. 
+7. On the top of GitHub pages you can now find a link to the published live website. 
+
+#### Forking the GitHub Repository 
+
+By forking this GitHub repository you are making a copy of the original to view or make changes without affecting the original. You can do this by following these steps...
+
+1. Log into your GitHub account and find the [repository](https://github.com/Marittie/Marittie-CI_PP2_RPSLS).
+2. Click 'Fork' (third button on the top right of the repository page).
+3. You will then have a copy of the repository in your own GitHub account. 
+
+#### Making a Local Clone
+
+1. Log into your GitHub account and find the [repository](https://github.com/Marittie/Marittie-CI_PP2_RPSLS).
+2. Click on the 'Code' button (next to 'Add file'). 
+3. To clone the repository using HTTPS, under clone with HTTPS, copy the link.
+4. Then open Git Bash.
+5. Change the current working directory to where you want the cloned directory to be made.
+6. In your IDE's terminal type 'git clone' followed by the URL you copied.
+7. Press Enter. 
+8. Your local clone will now be made.
+
+## Credits
+
+### Code
+
+- **Anya Kubóv** - From [YouTube](https://www.youtube.com/watch?v=RwFeg0cEZvQ&ab_channel=CodewithAniaKub%C3%B3w)3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!). It gave me a good hint from where to start. particularly on the code for the function generateComputerChoice() and the function displayResult().
+- **Stack Overflow** - from [StackOverflow](https://stackoverflow.com/questions/66193218/how-do-i-get-my-rock-paper-scissors-game-to-reset-after-5-wins-with-javascript) for the code to end and restart the game. Line 160 of JavaScript
+- **Student Support** - For the "rough" codes they would give me in order to give me a base where to start to write my codes.
+
+### Media
+
+All of the cards were created using [Canva Premium](https://www.canva.com/). 
+
+### Acknowledgements: 
+
+- To my friends for testing, playing and giving me feedback about the game. 
+- To my mentor Mo Shami for his feedback, advice and support.
+- To the Code Institute Tutor Support for their helpful advice, resources, guidance and support. 

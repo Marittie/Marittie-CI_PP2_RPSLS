@@ -60,7 +60,7 @@ I have divided my user stories into two categories: first-time users and regular
 4. As a first-time user, I want to be able to play the game across all personal devices. 
 5. As a first-time user, I want to be able to see the choices made by me and the computer.
 6. As a first-time user, I want to keep track of my score to monitor my performance in the game. 
-7. As a first-time user, I want to see the result og the "battle" between me and the computer.
+7. As a first-time user, I want to see the result of the "battle" between me and the computer at the end of the game.
 
 #### Regular visitor
  
@@ -168,8 +168,8 @@ This feature is used to dispaly to users the result of the "battle" between them
 
 **User stories covered by this feature:**
 
-7. As a first-time user, I want to see the result og the "battle" between me and the computer.
-8. As a regular visitor, I want to see the result og the "battle" between me and the computer.
+7. As a first-time user, I want to see the result of the "battle" between me and the computer at the end of the game.
+8. As a regular visitor, I want to see the result of the "battle" between me and the computer.
 
 #### Feature 7: Score
 
@@ -270,15 +270,62 @@ The website passes with [0 errors](./docs/accessibility/wawe-acc.png).
 
  ### Testing user stories
 
+*1. As a first-time user, I want to see the name of the game.*
 
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Read name of the game in the header of the page|      No action required, the header is displayed on the top of the page | To find a name that is clear, readable and easy to understand | Works as expected |
 
+*2. As a first-time user, I want to understand the scope of the game.*
 
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Read the scope of the game just below the header|      No action required, the scope is displayed on the top of the page | To understand the final scope of the game | Works as expected |
 
+*3. As a first-time user, I want to understand the rules of the game.*
 
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Button below the header to direct user to the rules of the game|      Click the button, user will navigate directly to the rules | To understand the rules of the game | Works as expected |
+| A list with all the rules at the bottom of the page|      No action required, the rules are displayed at the bottom of the page | To understand the rules of the game | Works as expected |
 
+*4. As a first-time user, I want to be able to play the game across all personal devices.*
 
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| The webpage is fully responsive |   No action required  | All content to be present and arranged in a sensible layout | Works as expected |
 
+*5. As a first-time user, I want to be able to see the choices made by me and the computer.*
 
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| 5 Button with icons to choose as user choice |   Click the chosen button and the choice is displayed in the "You" section  | The name of the object in the icons will display in the "You" section when a button in clicked | Works as expected |
+| A section with the names 'You' and 'Computer' |   To display the choices made by the user and the computer | The name of the object in the icons will display in the "You" and "Computer" sections when a button in clicked | Works as expected |
+
+*6. As a first-time user, I want to keep track of my score to monitor my performance in the game.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Score section below the user and computer choices |   No action required,the result is displayed right away when the user and the computer hava made their choices | To display who, between the user and the computer has won the round and and the end the winner of the game | Works as expected |
+
+*7. As a first-time user, I want to see the result og the "battle" between me and the computer at the end of the game.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Score section below the user and computer choices |   No action required,the result is displayed as soon as the user or the computer scores 10 point | To display who, between the user and the computer is the winner of the game | Works as expected |
+
+*8. As a regular visitor, I want to see the result og the "battle" between me and the computer.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+ | Score section below the user and computer choices |   No action required,the result is displayed as soon as the user or the computer scores 10 point | To display who, between the user and the computer is the winner of the game | Works as expected |
+| Score section below the user and computer choices |   No action required,the result is displayed as soon as the user or the computer scores 10 point | To display who, between the user and the computer is the winner of the game | Works as expected |
+
+*9. As a regular visitor, I want to see the difference in score between me and the computer.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Score section below the user and computer choices |   No action required,the result is displayed as soon as the user or the computer scores 10 point | To keep track of the scores  | Works as expected |
 
  ## Bugs:
 
@@ -322,7 +369,7 @@ By forking this GitHub repository you are making a copy of the original to view 
 ### Code
 
 - **Anya Kubóv** - From [YouTube](https://www.youtube.com/watch?v=RwFeg0cEZvQ&ab_channel=CodewithAniaKub%C3%B3w)3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!). It gave me a good hint from where to start. particularly on the code for the function generateComputerChoice() and the function displayResult().
-- **Stack Overflow** - from [StackOverflow](https://stackoverflow.com/questions/66193218/how-do-i-get-my-rock-paper-scissors-game-to-reset-after-5-wins-with-javascript) for the code to end and restart the game. Line 160 of JavaScript
+- **Stack Overflow** - from [StackOverflow](https://stackoverflow.com/questions/66193218/how-do-i-get-my-rock-paper-scissors-game-to-reset-after-5-wins-with-javascript) for the code to end and reset the game. Line 160 of JavaScript
 - **Student Support** - For the "rough" codes they would give me in order to give me a base where to start to write my codes.
 
 ### Media

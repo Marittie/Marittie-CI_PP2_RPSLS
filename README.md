@@ -327,6 +327,27 @@ The website passes with [0 errors](./docs/accessibility/wawe-acc.png).
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
 | Score section below the user and computer choices |   No action required,the result is displayed as soon as the user or the computer scores 10 point | To keep track of the scores  | Works as expected |
 
+*10. As a site owner, I want users to be able to understand the scope of the game.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Read the scope of the game just below the header|      No action required, the scope is displayed on the top of the page | To understand the final scope of the game | Works as expected |
+
+*11. As a site owner, I want users to be able to understand the rules of the game.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Button below the header to direct user to the rules of the game|      Click the button, user will navigate directly to the rules | To understand the rules of the game | Works as expected |
+| A list with all the rules at the bottom of the page|      No action required, the rules are displayed at the bottom of the page | To understand the rules of the game | Works as expected |
+
+*12. As a site owner, I want users to be able to play and navigate the page easily so that users are more likely to have an enjoyable experience and return to the game.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Top of the page with header, scope of the game and button to navigate to the rules    |      Click on the button to navigate to the rules of the game   | Displaying name of the game,scope of the game and rules | Works as expected |
+| Challange section  |      Click on the icon buttons to start and interact with the game  | To play the game | Works as expected |
+| Result and Score section  |      No actions required, displaying the result and the score of the user and computer  | To display result and score | Works as expected |
+
  ## Bugs:
 
  No Bugs were found in the game.

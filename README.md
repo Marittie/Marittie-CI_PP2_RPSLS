@@ -1,5 +1,7 @@
 # Rock, Paper, Scissors, Lizard, Spock (PP2)
 
+(Mario Castaldo)
+
 ![Responsive mockup of the website](.//docs/mockup/responsive-mockup.png)
 
 [View the deployed website.](https://marittie.github.io/Marittie-CI_PP2_RPSLS/)

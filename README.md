@@ -18,17 +18,17 @@
 5. [Testing](#testing)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
-    3. [Accessibility](#accessibility)
-    4. [Performance](#performance)
-    5. [Device testing](#performing-tests-on-various-devices)
-    6. [Browser compatibility](#browser-compatability)
-    7. [Testing user stories](#testing-user-stories)
+    3. [JavaScript Validation](#JavaScript-validation)
+    4. [Accessibility](#accessibility)
+    5. [Performance](#performance)
+    6. [Device testing](#performing-tests-on-various-devices)
+    7. [Browser compatibility](#browser-compatability)
+    8. [Testing user stories](#testing-user-stories)
 6. [Bugs](#Bugs-found-and-resolved-during-development)
 7. [Deployment](#deployment)
 8. [Credits](#credits)
     1. [Code](#code)
-    2. [Media](#media)
-    3. [Acknowledgements](#acknowledgements)
+    2. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 
@@ -80,7 +80,7 @@ My overall approach to the design came from a desire to create a game that was f
 
 #### Colour Scheme
 
-I chose to use a shade of green and a shade of red as the primary scheme to bring to the user's mind connotations of nature and challenge. I chose shades of orange,blue and gray for the user and computer choice,the scores and the result to be able to draw particular attention when those value changes.
+I chose to use a shade of green and a shade of red as the primary scheme to bring to the user's mind connotations of nature and challenge. I chose shades of orange,blue and gray for the user and computer choice,the scores and the result to be able to draw particular attention when those values changes.
 
 #### Typography
 
@@ -391,14 +391,12 @@ By forking this GitHub repository you are making a copy of the original to view 
 
 - **Anya Kubóv** - From [YouTube](https://www.youtube.com/watch?v=RwFeg0cEZvQ&ab_channel=CodewithAniaKub%C3%B3w)3 ways to code Rock Paper Scissors in JavaScript (Beginner to Intermediate to Advanced!). It gave me a good hint from where to start. particularly on the code for the function generateComputerChoice() and the function displayResult().
 - **Stack Overflow** - from [StackOverflow](https://stackoverflow.com/questions/66193218/how-do-i-get-my-rock-paper-scissors-game-to-reset-after-5-wins-with-javascript) for the code to end and reset the game. Line 160 of JavaScript
-- **Student Support** - For the "rough" codes they would give me in order to give me a base where to start to write my codes.
-
-### Media
-
-All of the cards were created using [Canva Premium](https://www.canva.com/). 
+- **Student Support** - For the "rough" codes they would give me in order to give me a base where to start to write my codes. 
+- **W3 Schools** - From [W3 Schools](https://www.w3schools.com/) for the hints about different line of codes.
 
 ### Acknowledgements: 
 
+- To my girlfriend for the support,help with the daily tasks and feedback.
 - To my friends for testing, playing and giving me feedback about the game. 
 - To my mentor Mo Shami for his feedback, advice and support.
 - To the Code Institute Tutor Support for their helpful advice, resources, guidance and support. 

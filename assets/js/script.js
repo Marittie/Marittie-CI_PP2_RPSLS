@@ -156,9 +156,9 @@ const updateScore = () => {
         endGame();
        }
 } 
-  
-function endGame() {
   // reset all score to 0
+function endGame() {
+  
   userScore = 0;
   computerScore = 0;
   tieScore = 0;
